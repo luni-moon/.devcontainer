@@ -1,0 +1,19 @@
+{
+  "name": "BatemaDevelopment .devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "BatemaDevelopment",
+  "containerUser": "Lukas Batema",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "4gb",
+    "storage": "32gb"
+  }
+}
