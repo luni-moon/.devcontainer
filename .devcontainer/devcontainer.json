@@ -15,5 +15,107 @@
     "cpus": 4,
     "memory": "4gb",
     "storage": "32gb"
+  },
+  "settings": {
+    "git.enableSmartCommit": true,
+    "discord.largeImageIdling": "zzzzzzzzzz...",
+    "discord.detailsEditing": "Editing the file of {dir_name}\/{file_name}, on the line of {current_line}\/{total_lines}.",
+    "git.confirmSync": false,
+    "discord.detailsDebugging": "Debugging the file of {dir_name}\/{file_name}, on the line of {current_line}\/{total_lines}.",
+    "discord.lowerDetailsNoWorkspaceFound": "File Size: {file_size}",
+    "editor.tabSize": 2,
+    "discord.largeImage": "Editing a {LANG} file.",
+    "git.autofetch": true,
+    "editor.accessibilitySupport": "off",
+    "discord.smallImage": "VSCode - Insiders",
+    "discord.lowerDetailsDebugging": "Debugging the repository of {workspace}, on the branch of {git_branch}.",
+    "discord.idleTimeout": 300,
+    "files.autoSave": "afterDelay",
+    "discord.detailsIdling": "Either AFK, on the Welcome Page, editing an Unsupported File Type, or a combination of the three.",
+    "discord.lowerDetailsIdling": "",
+    "discord.lowerDetailsEditing": "Editing the repository of {workspace}, on the branch of {git_branch}.",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+      "*.html": "html"
+    },
+    "cSpell.language": "en-GB, en-US",
+    "workbench.editorAssociations": {
+      "*.zip": "default"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredExtensions": [
+      "icrawl.discord-vscode"
+    ],
+    "git.postCommitCommand": "push",
+    "remoteHub.commitDirectlyWarning": "off",
+    "remote.SSH.configFile": "/var/folders/9_/08vw98b51sg74k6qkdk3zj2m0000gn/T/gitpod_ssh_config-5283-1cvAN15pI5bi",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      },
+      "zsh (2)": {
+        "path": "/usr/bin/zsh"
+      }
+    },
+    "liveshare.presence": true,
+    "redhat.telemetry.enabled": false,
+    "workbench.startupEditor": "welcomePage",
+    "sonarlint.rules": {
+      "javascript:S125": {
+        "level": "off"
+      }
+    },
+    "editor.inlineSuggest.enabled": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
+    "swift.backgroundCompilation": true,
+    "swift.diagnostics": true,
+    "terminal.integrated.profiles.windows": {
+      "PowerShell Preview (msix)": {
+        "path": "C:\\Users\\Lukas\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShellPreview_8wekyb3d8bbwe\\pwsh.exe",
+        "args": [],
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell Preview (msix)",
+    "vs-kubernetes": {
+      "vscode-kubernetes.helm-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+      "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+      "vscode-kubernetes.minikube-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "svelte.enable-ts-plugin": true
   }
 }
