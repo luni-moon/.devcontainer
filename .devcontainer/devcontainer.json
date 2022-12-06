@@ -1,15 +1,15 @@
 {
-  "name": "BatemaDevelopment .devcontainer",
+  "name": "BatemaDevelopment Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
     }
   },
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
   "remoteUser": "BatemaDevelopment",
-  "containerUser": "Lukas Batema",
+  "containerUser": "Lukas-Batema",
   "hostRequirements": {
     "cpus": 4,
     "memory": "4gb",
@@ -49,30 +49,6 @@
     ],
     "git.postCommitCommand": "push",
     "remoteHub.commitDirectlyWarning": "off",
-    "remote.SSH.configFile": "/var/folders/9_/08vw98b51sg74k6qkdk3zj2m0000gn/T/gitpod_ssh_config-5283-1cvAN15pI5bi",
-    "terminal.integrated.profiles.linux": {
-      "bash": {
-        "path": "bash",
-        "icon": "terminal-bash"
-      },
-      "zsh": {
-        "path": "zsh"
-      },
-      "fish": {
-        "path": "fish"
-      },
-      "tmux": {
-        "path": "tmux",
-        "icon": "terminal-tmux"
-      },
-      "pwsh": {
-        "path": "pwsh",
-        "icon": "terminal-powershell"
-      },
-      "zsh (2)": {
-        "path": "/usr/bin/zsh"
-      }
-    },
     "liveshare.presence": true,
     "redhat.telemetry.enabled": false,
     "workbench.startupEditor": "welcomePage",
@@ -91,30 +67,6 @@
     },
     "swift.backgroundCompilation": true,
     "swift.diagnostics": true,
-    "terminal.integrated.profiles.windows": {
-      "PowerShell Preview (msix)": {
-        "path": "C:\\Users\\Lukas\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShellPreview_8wekyb3d8bbwe\\pwsh.exe",
-        "args": [],
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      }
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell Preview (msix)",
-    "vs-kubernetes": {
-      "vscode-kubernetes.helm-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-      "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
-      "vscode-kubernetes.minikube-path.windows": "C:\\Users\\Lukas\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-    },
     "svelte.enable-ts-plugin": true
   }
 }
