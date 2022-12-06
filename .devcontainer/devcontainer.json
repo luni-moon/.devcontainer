@@ -1,16 +1,18 @@
 {
-  "name": "BatemaDevelopment Dev Container",
+  "name": "BatemaDevelopment's Alpine (3.17) NodeJS LTS Dev Container",
+  "remoteUser": "BatemaDevelopment",
+  "containerUser": "Lukas Batema",
+  "containerEnv": {
+    "imageVariant": "3.17"
+  },
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
     }
   },
-  "remoteUser": "BatemaDevelopment",
-  "containerUser": "Lukas-Batema",
   "hostRequirements": {
     "cpus": 4,
     "memory": "4gb",

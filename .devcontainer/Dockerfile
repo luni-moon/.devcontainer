@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:alpine-3.17
+FROM mcr.microsoft.com/devcontainers/base:alpine-${imageVariant}
 
 RUN apk update \
     && apk upgrade \
