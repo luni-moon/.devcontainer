@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:alpine-3.16
+FROM mcr.microsoft.com/devcontainers/base:alpine
 
 # [Optional] Uncomment this section to install additional OS packages.
 RUN apk update \
