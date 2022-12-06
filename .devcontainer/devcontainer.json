@@ -3,7 +3,7 @@
   "remoteUser": "BatemaDevelopment",
   "containerUser": "Lukas Batema",
   "containerEnv": {
-    "imageVariant": "3.17"
+    "imageVariant": "3.16"
   },
   "build": {
     "dockerfile": "Dockerfile"
