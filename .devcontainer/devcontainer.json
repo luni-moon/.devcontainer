@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
