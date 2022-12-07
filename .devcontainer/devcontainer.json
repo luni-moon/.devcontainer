@@ -1,7 +1,7 @@
 {
   "name": "BatemaDevelopment's Alpine (3.16) NodeJS LTS Dev Container",
   "remoteUser": "BatemaDevelopment",
-  "containerUser": "Lukas Batema",
+  "containerUser": "Lukas-Batema",
   "containerEnv": {
     "imageVariant": "3.16"
   },
@@ -10,7 +10,7 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "16"
+      "version": "lts"
     }
   },
   "hostRequirements": {
@@ -20,22 +20,11 @@
   },
   "settings": {
     "git.enableSmartCommit": true,
-    "discord.largeImageIdling": "zzzzzzzzzz...",
-    "discord.detailsEditing": "Editing the file of {dir_name}\/{file_name}, on the line of {current_line}\/{total_lines}.",
     "git.confirmSync": false,
-    "discord.detailsDebugging": "Debugging the file of {dir_name}\/{file_name}, on the line of {current_line}\/{total_lines}.",
-    "discord.lowerDetailsNoWorkspaceFound": "File Size: {file_size}",
     "editor.tabSize": 2,
-    "discord.largeImage": "Editing a {LANG} file.",
     "git.autofetch": true,
     "editor.accessibilitySupport": "off",
-    "discord.smallImage": "VSCode - Insiders",
-    "discord.lowerDetailsDebugging": "Debugging the repository of {workspace}, on the branch of {git_branch}.",
-    "discord.idleTimeout": 300,
     "files.autoSave": "afterDelay",
-    "discord.detailsIdling": "Either AFK, on the Welcome Page, editing an Unsupported File Type, or a combination of the three.",
-    "discord.lowerDetailsIdling": "",
-    "discord.lowerDetailsEditing": "Editing the repository of {workspace}, on the branch of {git_branch}.",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "files.associations": {
