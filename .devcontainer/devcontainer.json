@@ -1,5 +1,5 @@
 {
-  "name": "BatemaDevelopment's Alpine (3.17) NodeJS LTS Dev Container",
+  "name": "BatemaDevelopment's Alpine (3.16) NodeJS LTS Dev Container",
   "remoteUser": "BatemaDevelopment",
   "containerUser": "Lukas Batema",
   "containerEnv": {
@@ -10,7 +10,7 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
+      "version": "16"
     }
   },
   "hostRequirements": {
