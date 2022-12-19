@@ -1,17 +1,9 @@
 {
-  "name": "BatemaDevelopment's Alpine (3.16) NodeJS LTS Dev Container",
+  "name": "BatemaDevelopment's Alpine (3.17) NodeJS LTS Dev Container",
   "remoteUser": "BatemaDevelopment",
   "containerUser": "Lukas-Batema",
-  "containerEnv": {
-    "imageVariant": "3.16"
-  },
   "build": {
     "dockerfile": "Dockerfile"
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
-    }
   },
   "hostRequirements": {
     "cpus": 4,
@@ -36,9 +28,6 @@
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "security.workspace.trust.untrustedFiles": "open",
-    "settingsSync.ignoredExtensions": [
-      "icrawl.discord-vscode"
-    ],
     "git.postCommitCommand": "push",
     "remoteHub.commitDirectlyWarning": "off",
     "liveshare.presence": true,
