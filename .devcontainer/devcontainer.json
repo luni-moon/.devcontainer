@@ -1,7 +1,6 @@
 {
   "name": "BatemaDevelopment's Alpine (3.17) NodeJS LTS Dev Container",
   "remoteUser": "BatemaDevelopment",
-  "containerUser": "Lukas-Batema",
   "build": {
     "dockerfile": "Dockerfile"
   },
